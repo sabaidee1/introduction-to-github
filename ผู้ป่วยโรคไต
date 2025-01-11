@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์สำหรับคนเป็นโรคไต</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>เว็บไซต์สำหรับคนเป็นโรคไต</h1>
+        <nav>
+            <ul>
+                <li><a href="#diet">เมนูอาหาร</a></li>
+                <li><a href="#fruits">ผลไม้ที่กินได้</a></li>
+                <li><a href="#seasonings">เครื่องปรุงที่ใช้ได้</a></li>
+                <li><a href="#nutrients">ข้อมูลโซเดียม ฟอสฟอรัส และโพแทสเซียม</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="diet">
+        <h2>เมนูอาหารที่ควรกิน</h2>
+        <ul>
+            <li>ข้าวกล้อง (โซเดียม: 1mg, ฟอสฟอรัส: 75mg, โพแทสเซียม: 100mg)</li>
+            <li>ผักใบเขียว (โซเดียม: 5mg, ฟอสฟอรัส: 50mg, โพแทสเซียม: 200mg)</li>
+            <li>ปลา (โซเดียม: 60mg, ฟอสฟอรัส: 150mg, โพแทสเซียม: 300mg)</li>
+        </ul>
+    </section>
+
+    <section id="fruits">
+        <h2>ผลไม้ที่กินได้</h2>
+        <ul>
+            <li>แอปเปิ้ล (โซเดียม: 1mg, ฟอสฟอรัส: 10mg, โพแทสเซียม: 150mg)</li>
+            <li>ส้ม (โซเดียม: 2mg, ฟอสฟอรัส: 20mg, โพแทสเซียม: 200mg)</li>
+            <li>แตงโม (โซเดียม: 2mg, ฟอสฟอรัส: 5mg, โพแทสเซียม: 100mg)</li>
+        </ul>
+    </section>
+
+    <section id="seasonings">
+        <h2>เครื่องปรุงที่ใช้ได้</h2>
+        <ul>
+            <li>เครื่องเทศ: กระเทียม, ขิง, พริกไทย</li>
+            <li>เกลือที่ปราศจากโซเดียม</li>
+        </ul>
+    </section>
+
+    <section id="nutrients">
+        <h2>ข้อมูลโซเดียม ฟอสฟอรัส และโพแทสเซียม</h2>
+        <table>
+            <tr>
+                <th>อาหาร</th>
+                <th>โซเดียม (mg)</th>
+                <th>ฟอสฟอรัส (mg)</th>
+                <th>โพแทสเซียม (mg)</th>
+            </tr>
+            <tr>
+                <td>ข้าวกล้อง</td>
+                <td>1</td>
+                <td>75</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>ปลา</td>
+                <td>60</td>
+                <td>150</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>แอปเปิ้ล</td>
+                <td>1</td>
+                <td>10</td>
+                <td>150</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2025 เว็บไซต์สำหรับคนเป็นโรคไต</p>
+    </footer>
+</body>
+</html>
